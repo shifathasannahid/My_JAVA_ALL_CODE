@@ -8,11 +8,11 @@ public class Returnting_Value
     public static void main(String[] args) {
 
         Returnting_Value ob1 = new Returnting_Value();
-        System.out.println("Squre of 5 = "+ob1.square(5));
+        System.out.println("Square of 5 = "+ob1.square(5));
        
 
         Returnting_Value ob2 = new Returnting_Value();
-        System.out.println("Squre of 8 = "+ob1.square(8));
+        System.out.println("Square of 8 = "+ob1.square(8));
         
     }
 
