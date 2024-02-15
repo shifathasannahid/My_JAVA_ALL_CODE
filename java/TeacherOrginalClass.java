@@ -3,7 +3,7 @@ public class TeacherOrginalClass{
     String name,Gender;
     int phone;
 
-    void setInformation(String n,String g,int ph)//Ata ke perameterized Method bole
+    TeacherOrginalClass(String n,String g,int ph)//Ata ke perameterized Constractor bole
     {
         name = n;
         Gender = g;
@@ -23,18 +23,13 @@ public class TeacherOrginalClass{
     public static void main(String[] args)
     {
      
-    TeacherOrginalClass teacher1 = new TeacherOrginalClass();//object create
-    
-     teacher1.setInformation("Shifat Hasan","Male",1938627609);
+    TeacherOrginalClass teacher1 = new TeacherOrginalClass("Shifat Hasan","Male",1938627609);//object create
      teacher1.DisplayInforfation();
-   
-
-    
 
 
-    TeacherOrginalClass teacher2= new TeacherOrginalClass();//object create
+
+    TeacherOrginalClass teacher2= new TeacherOrginalClass("Hasan Jamil","Male",193865709);//object create
        
-       teacher2.setInformation("Hasan Jamil","Male",193865709);
        teacher2.DisplayInforfation();
        
        
